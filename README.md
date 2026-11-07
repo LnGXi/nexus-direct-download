@@ -8,15 +8,17 @@
 2. 打开下方安装链接，在油猴中确认安装。
 3. 登录 Nexus Mods，照常点击 Manual Download，进入文件下载页后自动请求链接。
 
-[安装脚本](https://raw.githubusercontent.com/LnGXi/nexus-direct-download/main/nexus-direct-download.user.js)
+[Greasy Fork 安装页面](https://greasyfork.org/zh-CN/scripts/604246-nexus-mods-%E6%96%87%E4%BB%B6%E7%9B%B4%E4%B8%8B)
+
+[GitHub 安装入口](https://raw.githubusercontent.com/LnGXi/nexus-direct-download/main/nexus-direct-download.user.js)
 
 页面右下角会显示处理状态。接口失败时可以点击“重新索取链接”。
 
 ## 更新
 
-从 GitHub 上面的链接安装后，油猴会按照自身的更新设置检查新版本。已经手动粘贴安装过初版的用户，需要从该链接安装一次发布版，才能获得更新地址。脚本名称和 namespace 保持与初版一致。
+从 GitHub 安装入口安装后，油猴会按照自身的更新设置检查 GitHub 上的新版本。已经手动粘贴安装过初版的用户，需要从上面的发布入口安装一次，才能获得更新来源。脚本名称和 namespace 保持与初版一致。
 
-发布到 Greasy Fork 后，从 Greasy Fork 安装的用户由 Greasy Fork 提供更新。维护者更新本仓库时递增脚本头部的 @version，再同步到 Greasy Fork。
+脚本已发布到 Greasy Fork。从 Greasy Fork 安装的用户由 Greasy Fork 提供更新。维护者更新本仓库时递增脚本头部的 @version，并检查 Greasy Fork 已同步对应版本。Greasy Fork 启用自动同步后会从 GitHub 拉取更新。
 
 自动更新用于分发已发布的修补。Nexus 修改页面结构或下载接口后，仍需维护者适配并发布新版本。
 
